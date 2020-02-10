@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mdiberardino\\source\\repos\\PluralsightBot\\PluralsightBot\\PluralsightBot.csproj": {}
+    "C:\\Users\\mdiberardino\\Desktop\\microsoft-bot-framework-pluralsight\\Bot\\PluralsightBot\\PluralsightBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mdiberardino\\source\\repos\\PluralsightBot\\PluralsightBot\\PluralsightBot.csproj": {
+    "C:\\Users\\mdiberardino\\Desktop\\microsoft-bot-framework-pluralsight\\Bot\\PluralsightBot\\PluralsightBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mdiberardino\\source\\repos\\PluralsightBot\\PluralsightBot\\PluralsightBot.csproj",
+        "projectUniqueName": "C:\\Users\\mdiberardino\\Desktop\\microsoft-bot-framework-pluralsight\\Bot\\PluralsightBot\\PluralsightBot.csproj",
         "projectName": "PluralsightBot",
-        "projectPath": "C:\\Users\\mdiberardino\\source\\repos\\PluralsightBot\\PluralsightBot\\PluralsightBot.csproj",
+        "projectPath": "C:\\Users\\mdiberardino\\Desktop\\microsoft-bot-framework-pluralsight\\Bot\\PluralsightBot\\PluralsightBot.csproj",
         "packagesPath": "C:\\Users\\mdiberardino\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mdiberardino\\source\\repos\\PluralsightBot\\PluralsightBot\\obj\\",
+        "outputPath": "C:\\Users\\mdiberardino\\Desktop\\microsoft-bot-framework-pluralsight\\Bot\\PluralsightBot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

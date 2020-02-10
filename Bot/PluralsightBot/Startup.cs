@@ -33,22 +33,25 @@ namespace PluralsightBot
             // Create the Bot Framework Adapter with error handling enabled.
             services.AddSingleton<IBotFrameworkHttpAdapter, AdapterWithErrorHandler>();
 
+            // Confiracion del state
+            ConfigureState(services);
+
             // Create the bot as a transient. In this case the ASP Controller is expecting an IBot.
-            services.AddTransient<IBot, EchoBot>();
+            services.AddTransient<IBot, GreetingBot>();
         }
 
         public void ConfigureState(IServiceCollection services)
         {
-            // Create the storage we'll be using for User and Conversation state. (Memory is great for testing purposes)
+            // Creo el storage para usar User y Conversation state
             services.AddSingleton<IStorage, MemoryStorage>();
 
-            // Create the User state
+            // Creo el User state
             services.AddSingleton<UserState>();
 
-            // Create the Conversation state
+            // Creo el Conversation state
             services.AddSingleton<ConversationState>();
 
-            // Create an instac of the state service
+            // Creo una instancia del state service
             services.AddSingleton<BotStateService>();
         }
 
